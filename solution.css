@@ -59,3 +59,12 @@
 .ex-5-square:active {
     transform: scale(0.5);
 }
+
+.ex-6-img {
+    width: 500px;
+    transition: filter 2s;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
