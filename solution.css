@@ -78,3 +78,14 @@
     filter: grayscale(1);
     border-radius: 20px;
 }
+
+.ex-8-img {
+    width: 500px;
+    transition: filter 2s, border-radius 2s, transform 2s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(1);
+    border-radius: 20px;
+    transform: scale(0.5);
+}
